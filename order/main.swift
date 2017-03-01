@@ -7,6 +7,12 @@
 //
 
 import Foundation
+var Array = String()
 
-print("Hello, World!")
+var p = 100
+
+for i in 0...p{
+    Array.append("\n\(i)")
+}
+print("\(Array)")
 
